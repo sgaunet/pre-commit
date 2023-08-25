@@ -16,3 +16,12 @@ repos:
 ```
 
 [You need to install osv-scanner.](https://github.com/google/osv-scanner)
+
+
+# Development
+
+A reminder when developping new hooks. You can test the hooks by executing this command in the repository you want to execute hooks:
+
+```
+pre-commit try-repo ../../../GITHUB/PUBLIC/pre-commit osv-scanner --verbose --all-files
+```
