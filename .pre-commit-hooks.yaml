@@ -6,3 +6,11 @@
   minimum_pre_commit_version: 2.9.2
   require_serial: true
   pass_filenames: false
+- id: govulncheck
+  name: govulncheck
+  description: "govulncheck: ..."
+  entry: govulncheck
+  language: system
+  minimum_pre_commit_version: 2.9.2
+  require_serial: true
+  pass_filenames: false
