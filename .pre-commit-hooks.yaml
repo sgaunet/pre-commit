@@ -1,6 +1,6 @@
 - id: osv-scanner
   name: osv-scanner
-  description: "osv-scanner: ..."
+  description: "osv-scanner: Vulnerability scanner written in Go which uses the data provided by https://osv.dev"
   entry: osv-scanner --recursive .
   language: system
   minimum_pre_commit_version: 2.9.2
@@ -8,7 +8,7 @@
   pass_filenames: false
 - id: govulncheck
   name: govulncheck
-  description: "govulncheck: ..."
+  description: "govulncheck: Govulncheck reports known vulnerabilities that affect Go code. It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the applicatio"
   entry: govulncheck
   language: system
   minimum_pre_commit_version: 2.9.2
@@ -16,7 +16,7 @@
   pass_filenames: false
 - id: gitleaks
   name: gitleaks
-  description: "gitleaks: ..."
+  description: "gitleaks: Detect hardcoded secrets using Gitleaks"
   entry: gitleaks detect --verbose 
   language: system
   minimum_pre_commit_version: 2.9.2
